@@ -79,10 +79,7 @@ public class StudentManager {
 			{
 				if(students[i].getId() == id)
 				{
-					System.out.println
-					("Student was found! Student ID: " + students[i].getId() 
-					+ ". Student Name: " + students[i].getName()
-					+ ". Student Grade: " + students[i].getGrade());
+					System.out.println("Student was found! " + students[i].toString()) ;
 					return true;
 				}
 				
@@ -90,6 +87,7 @@ public class StudentManager {
 				System.out.println("The student was not found. Please try again!");
 				return false;
 		}
+
 		
 		//Aditya
 		public boolean updateStudentGradeById(int id, double grade) {
