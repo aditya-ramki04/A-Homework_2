@@ -90,6 +90,26 @@ public class StudentManager {
 				System.out.println("The student was not found. Please try again!");
 				return false;
 		}
+		
+		//Aditya
+		public boolean updateStudentGradeById(int id, double grade) {
+			
+			if(searchStudentById(id)) {
+				//loops through student array, finds student with id, and sets their grade
+				for(int i=0; i<students.length; i++)
+				{
+					if(students[i].getId() == id)
+					{
+						students[i].setGrade(grade);
+					}	
+				}
+			}
+			else {
+				return false;
+			}
+			
+			return true;
+		}
 
 	
 	
