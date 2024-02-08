@@ -11,5 +11,5 @@ Aditya R: Update Student Information
 Matthew R: Search Students
 Nitin C: Display Students
 
-Upon the completion of this project, Abhi and Nitin had an error module download error. This didn't happen to Aditya and Matthew, so Abhi and Nitin just deleted the file
+Upon the completion of this project, Abhi and Nitin had an error that included a module download. This didn't happen to Aditya and Matthew, so Abhi and Nitin just deleted the file
 and re-imported the file and it worked properly. 
